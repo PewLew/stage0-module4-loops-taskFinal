@@ -6,13 +6,13 @@ public class Pyramid {
 
         for (int i = 1; i <= cathetusLength; ++i) {
             for (int space = 1; space <= cathetusLength - i; ++space) {
-                System.out.print("  ");
+                System.out.print(" ");
                 ++count;
             }
 
             while (k != 2 * i - 1) {
                 if (count <= cathetusLength - 1) {
-                    System.out.print((i + k) + " ");
+                    System.out.print((i + k) + "");
                     ++count;
                 } else {
                     ++count1;
