@@ -12,11 +12,11 @@ public class Pyramid {
 
             while (e != 2 * i - 1) {
                 if (count <= cathetusLength - 1) {
-                    System.out.print((i + e) + "");
+                    System.out.print((i + e) + " ");
                     ++count;
                 } else {
                     ++count1;
-                    System.out.print((i + e - 2 * count1) + "");
+                    System.out.print((i + e - 2 * count1) + " ");
                 }
 
                 ++e;
