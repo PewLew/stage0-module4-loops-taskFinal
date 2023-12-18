@@ -16,7 +16,7 @@ public class Pyramid {
                     ++count;
                 } else {
                     ++count1;
-                    System.out.print((i + k - 2 * count1) + " ");
+                    System.out.print((i + k - 2 * count1) + "");
                 }
 
                 ++k;
